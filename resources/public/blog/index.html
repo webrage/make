@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>make</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72.png">
+        <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57.png">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:300,400,700|Inconsolata" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+        <link href="css/blog.css" rel="stylesheet" type="text/css" />
+        <link href="css/lotus-highlightjs.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <aside id="sidebar">
+            <div id="logo">
+                <a title="make" href="/blog/">
+                    <img class="icon" src="/blog/img/white-rocket.svg">
+                    <div class="text desktop-and-tablet-only">make</div>
+                    <div class="text mobile-only">make</div>
+                </a>
+            </div>
+
+            <nav id="sidebar-links">
+                <nav id="menucont">
+                    <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
+                    <label for="menu-checkbox" class="menutitle">
+                        <svg class="icon icon-menu" aria-hidden="true"><use xlink:href="/blog/img/icons.svg#icon-menu"></use></svg><span class="menu-text">Menu</span>
+                    </label>
+                    <ul class="menu">
+                        <li  class="active" ><a title="Home" href="/blog/"><div class="menu-item-text">Home</div></a></li>
+                        <li ><a title="Archives" href="/blog/archives/"><div class="menu-item-text">Archives</div></a></li>
+                        
+                        <li ><a title="Tags" href="/blog/tags/"><div class="menu-item-text">Tags</div></a></li>
+                        
+                        
+                        <li >
+                            <a href="/blog/pages-output/about/"><div class="menu-item-text">About</div></a>
+                        </li>
+                        
+                        <!-- <li><a title="RSS" href="/blog/feed.xml"><div class="menu-item-text">RSS</div></a></li> -->
+                    </ul>
+                </nav>
+
+                <nav id="socialmedia">
+                    <ul>
+                        <li><a title="GitHub" href="https://github.com/webrage" target="_blank" rel="external"><svg class="icon icon-github-circled"><use xlink:href="/blog/img/icons.svg#icon-github-circled"></use></svg></a></li>
+                        <li><a title="RSS Feed" href="/blog/feed.xml" target="_blank" ><svg class="icon icon-rss-squared"><use xlink:href="/blog/img/icons.svg#icon-rss-squared"></use></svg></a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </aside>
+
+        <article id="main">
+            
+<div id="post">
+    <div class="post-header">
+    <div id="post-meta">
+       <img src=/blog/img/cryogen.png>
+        <h1>Hello world</h1>
+        <div class="byline">
+            <span class="date">3 September 2018</span>
+            
+        </div>
+    </div>
+</div>
+<div>
+    
+    <p>I have been wanting to play with <a href='http://cryogenweb.org'>Cryogen</a> for a while now. It is a clojure based helper for creating static web sites.</p><p>Having had a quick look at it I have decided to go with the lotus theme that you can see now. This will be the place where I post about the interesting things I create at my local makerspace (<a href='http://hackland.nz'>HackLand</a>).</p><h3 id="setup&#95;issues">setup issues</h3><h4 id="cryogen">cryogen</h4><p>With any new process there is stuff to learn and figure out. Being familiar with clojure I was quickly able to bring the getting started website to life at localhost.</p><h4 id="lotus&#95;theme">lotus theme</h4><p>The fun began when I decided to go with the lotus theme and the website wouldn't render in the browser. This theme uses <a href='https://sass-lang.com/'>SASS</a> for its style sheets so I had to install the SASS command-line app and update the config file.  I was happy to install this as it looks interesting. Still no luck. Turns out the latest version of the SASS command-line app doesn't work the same as previously, leaving cryogen throwing an error when called.  My current work-around is for me to call it manually, more a cludge than a fix...</p><h4 id="github">github</h4><h4 id="netlify">netlify</h4>
+</div>
+
+<div id="post-tags">
+    <br/>
+    <b>Tags: </b>
+    
+    <a href="/blog/tags-output/cryogen/">cryogen</a>
+    
+</div>
+
+<br/>
+
+    
+
+    
+    <div id="prev-next">
+    
+    <div class="prev"></div>
+    
+    
+    <div class="next"></div>
+    
+</div>
+
+    
+
+</div>
+
+            <hr/>
+            <div id="footercont">
+                Copyright &copy; 2018 robbie cameron
+                <br>Powered by <a href="http://cryogenweb.org">Cryogen</a>
+                <br>Theme by <a href="http://github.com/KingMob">KingMob</a>
+            </div>
+        </article>
+
+        <script src="js/highlight.pack.js" type="text/javascript"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        
+        
+    </body>
+</html>
