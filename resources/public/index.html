@@ -19,8 +19,8 @@
     <body>
         <aside id="sidebar">
             <div id="logo">
-                <a title="make" href="/blog/">
-                    <img class="icon" src="/blog/img/white-rocket.svg">
+                <a title="make" href="/">
+                    <img class="icon" src="/img/white-rocket.svg">
                     <div class="text desktop-and-tablet-only">make</div>
                     <div class="text mobile-only">make</div>
                 </a>
@@ -30,27 +30,27 @@
                 <nav id="menucont">
                     <input type="checkbox" id="menu-checkbox" class="menu-checkbox">
                     <label for="menu-checkbox" class="menutitle">
-                        <svg class="icon icon-menu" aria-hidden="true"><use xlink:href="/blog/img/icons.svg#icon-menu"></use></svg><span class="menu-text">Menu</span>
+                        <svg class="icon icon-menu" aria-hidden="true"><use xlink:href="/img/icons.svg#icon-menu"></use></svg><span class="menu-text">Menu</span>
                     </label>
                     <ul class="menu">
-                        <li  class="active" ><a title="Home" href="/blog/"><div class="menu-item-text">Home</div></a></li>
-                        <li ><a title="Archives" href="/blog/archives/"><div class="menu-item-text">Archives</div></a></li>
+                        <li  class="active" ><a title="Home" href="/"><div class="menu-item-text">Home</div></a></li>
+                        <li ><a title="Archives" href="/archives/"><div class="menu-item-text">Archives</div></a></li>
                         
-                        <li ><a title="Tags" href="/blog/tags/"><div class="menu-item-text">Tags</div></a></li>
+                        <li ><a title="Tags" href="/tags/"><div class="menu-item-text">Tags</div></a></li>
                         
                         
                         <li >
-                            <a href="/blog/pages-output/about/"><div class="menu-item-text">About</div></a>
+                            <a href="/pages-output/about/"><div class="menu-item-text">About</div></a>
                         </li>
                         
-                        <!-- <li><a title="RSS" href="/blog/feed.xml"><div class="menu-item-text">RSS</div></a></li> -->
+                        <!-- <li><a title="RSS" href="/feed.xml"><div class="menu-item-text">RSS</div></a></li> -->
                     </ul>
                 </nav>
 
                 <nav id="socialmedia">
                     <ul>
-                        <li><a title="GitHub" href="https://github.com/webrage" target="_blank" rel="external"><svg class="icon icon-github-circled"><use xlink:href="/blog/img/icons.svg#icon-github-circled"></use></svg></a></li>
-                        <li><a title="RSS Feed" href="/blog/feed.xml" target="_blank" ><svg class="icon icon-rss-squared"><use xlink:href="/blog/img/icons.svg#icon-rss-squared"></use></svg></a></li>
+                        <li><a title="GitHub" href="https://github.com/webrage" target="_blank" rel="external"><svg class="icon icon-github-circled"><use xlink:href="/img/icons.svg#icon-github-circled"></use></svg></a></li>
+                        <li><a title="RSS Feed" href="/feed.xml" target="_blank" ><svg class="icon icon-rss-squared"><use xlink:href="/img/icons.svg#icon-rss-squared"></use></svg></a></li>
                     </ul>
                 </nav>
             </nav>
@@ -61,7 +61,7 @@
 <div id="post">
     <div class="post-header">
     <div id="post-meta">
-       <img src=/blog/img/cryogen.png>
+       <img src=/img/cryogen.png>
         <h1>Hello world</h1>
         <div class="byline">
             <span class="date">3 September 2018</span>
@@ -71,14 +71,14 @@
 </div>
 <div>
     
-    <p>I have been wanting to play with <a href='http://cryogenweb.org'>Cryogen</a> for a while now. It is a clojure based helper for creating static web sites.</p><p>Having had a quick look at it I have decided to go with the lotus theme that you can see now. This will be the place where I post about the interesting things I create at my local makerspace (<a href='http://hackland.nz'>HackLand</a>).</p><h3 id="setup&#95;issues">setup issues</h3><h4 id="cryogen">cryogen</h4><p>With any new process there is stuff to learn and figure out. Being familiar with clojure I was quickly able to bring the getting started website to life at localhost.</p><h4 id="lotus&#95;theme">lotus theme</h4><p>The fun began when I decided to go with the lotus theme and the website wouldn't render in the browser. This theme uses <a href='https://sass-lang.com/'>SASS</a> for its style sheets so I had to install the SASS command-line app and update the config file.  I was happy to install this as it looks interesting. Still no luck. Turns out the latest version of the SASS command-line app doesn't work the same as previously, leaving cryogen throwing an error when called.  My current work-around is for me to call it manually, more a cludge than a fix...</p><h4 id="github">github</h4><h4 id="netlify">netlify</h4>
+    <p>I have been wanting to play with <a href='http://cryogenweb.org'>Cryogen</a> for a while now. It is a clojure based helper for creating static web sites.</p><p>Having had a quick look at it I have decided to go with the lotus theme that you can see now. This will be the place where I post about the interesting things I create at my local makerspace (<a href='http://hackland.nz'>HackLand</a>).</p><h3 id="setup&#95;issues">setup issues</h3><h4 id="cryogen">cryogen</h4><p>With any new process there is stuff to learn and figure out. Being familiar with clojure I was quickly able to bring the getting started website to life at localhost.</p><h4 id="lotus&#95;theme">lotus theme</h4><p>The fun began when I decided to go with the lotus theme and the website wouldn't render in the browser. This theme uses <a href='https://sass-lang.com/'>SASS</a> for its style sheets so I had to install the SASS command-line app and update the config file.  I was happy to install this as it looks interesting. Still no luck. Turns out the latest version of the SASS command-line app doesn't work the same as previously, leaving cryogen throwing an error when called.  My current work-around is for me to call it manually, more a cludge than a fix... TODO - fix the cludge :)</p><h4 id="github">github</h4><h4 id="netlify">netlify</h4>
 </div>
 
 <div id="post-tags">
     <br/>
     <b>Tags: </b>
     
-    <a href="/blog/tags-output/cryogen/">cryogen</a>
+    <a href="/tags-output/cryogen/">cryogen</a>
     
 </div>
 
