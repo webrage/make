@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 <url>
 <loc>
-http://webrage.co.nz/authors-output/robbie cameron/index.html
+http://make.webrage.co.nz/pages/about/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -10,7 +10,7 @@ http://webrage.co.nz/authors-output/robbie cameron/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/tags/index.html
+http://make.webrage.co.nz/tags/cryogen/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -18,7 +18,7 @@ http://webrage.co.nz/tags/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/pages-output/about/index.html
+http://make.webrage.co.nz/tags/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -26,7 +26,7 @@ http://webrage.co.nz/pages-output/about/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/pages-output/another-page/index.html
+http://make.webrage.co.nz/robbie/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -34,7 +34,7 @@ http://webrage.co.nz/pages-output/another-page/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/archives/index.html
+http://make.webrage.co.nz/archives/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -42,7 +42,7 @@ http://webrage.co.nz/archives/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/index.html
+http://make.webrage.co.nz/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -50,7 +50,7 @@ http://webrage.co.nz/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/tags-output/cryogen/index.html
+http://make.webrage.co.nz/posts/2018-09-03-first-post/index.html
 </loc>
 <lastmod>
 2018-09-04
@@ -58,15 +58,7 @@ http://webrage.co.nz/tags-output/cryogen/index.html
 </url>
 <url>
 <loc>
-http://webrage.co.nz/404.html
-</loc>
-<lastmod>
-2018-09-04
-</lastmod>
-</url>
-<url>
-<loc>
-http://webrage.co.nz/posts-output/2018-09-03-first-post/index.html
+http://make.webrage.co.nz/404.html
 </loc>
 <lastmod>
 2018-09-04
